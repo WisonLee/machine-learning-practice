@@ -1,5 +1,5 @@
 from sklearn import datasets
-from sklearn.model_selection import train_test_split  # 原文中cross_validation已过时改为model_selection
+from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from sklearn.model_selection import cross_val_predict
